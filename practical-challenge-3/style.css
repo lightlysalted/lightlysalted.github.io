@@ -1,0 +1,18 @@
+/* 3/6/24 */
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    line-height: 1.5;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #b42726;
+    text-decoration-thickness:5px;
+}
+h2{
+    color: #b42726;
+}
