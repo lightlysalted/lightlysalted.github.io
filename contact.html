@@ -25,7 +25,26 @@
         <p class="tagline">catchy tagline here</p>
     </header>
     <main>
-        <!--image-->
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_email">
+                </li>
+                <li>
+                    <label for="msg">Message:</label>
+                    <textarea name="user_message" id="msg" cols="30" rows="5"></textarea>
+                </li>
+                <li class="form-button">
+                    <button type="submit">Submit</button>
+                </li>
+            </ul>
+            
+        </form>
     </main>
     <footer>
         <small>Website by <a href="mailto:kel2226030@maricopa.edu">Kelly N</a>, &copy; Spring 2024</small>
