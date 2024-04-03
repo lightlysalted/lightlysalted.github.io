@@ -16,7 +16,7 @@ form li{
 }
 input,
 textarea{
-    border:1px solid gray;
+    border:1px solid #a3a3a3;
     border-radius:3px;
     font: 0.9em Sans-serif;
     width:300px;
