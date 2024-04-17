@@ -42,7 +42,7 @@ nav a:active, nav a:focus{
     color:#FFF8F2;
 }
 /************* desktop and up styling *************/
-@media (min-width: 400px){
+@media (min-width: 500px){
 	nav a{
 		display: inline-block;
 	}
