@@ -87,9 +87,12 @@ form ul{
 }
 label{
     display:block;
-    font-weight: bold;
+    font-size: 0.9rem;
+    font-weight:800;
+    letter-spacing: 0.1rem;
     min-width: 90px;
     padding-bottom: 0.3rem;
+    text-transform: uppercase;
 }
 form li{
     padding-top: 1rem;
