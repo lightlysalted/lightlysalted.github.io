@@ -97,7 +97,7 @@ footer{
     }
     .about{
         margin:0;
-        /** width:75%; **/
+        /* width:75%; */
     }
 }
 /************* about page *************/
@@ -131,8 +131,9 @@ footer{
 }
 /************* contact form *************/
 form ul{
-    list-style-type: none;
-    padding-left:0;
+    list-style: none;
+    padding:0;
+    margin:0;
 }
 label{
     display:block;
@@ -144,14 +145,19 @@ label{
     text-transform: uppercase;
 }
 form li{
-    padding-top: 1rem;
+    margin-top: 1rem;
 }
 input, textarea{
     border:1px solid #d2c2b8;
     border-radius:50px;
+    color:#282828;
     font-family: "Nunito", sans-serif;
+    letter-spacing: 0.03rem;
     padding: 10px 10px;
     width:90%;
+}
+input:focus, textarea:focus {
+  border-color: #FEE7D1;
 }
 #msg{
     height:7rem;
