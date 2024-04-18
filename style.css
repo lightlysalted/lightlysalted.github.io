@@ -1,21 +1,32 @@
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Nunito", sans-serif; 
     margin: 0;
     background-color:#FFF8F2;
     color:#282828;
+    text-align: center;
 }
 header, main, footer{
     margin:0 1rem;
 }
 a{
     color:#ED735A;
+    transition: .5s ease;
+    font-weight: 500;
+    text-underline-offset: 2px;
 }
 a:hover{
     color:#fa9d72;
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 0.3rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
 /************* navigation *************/
 nav{
     background-color: #282828;
+    margin-bottom: 3rem;
     padding: 0.1rem;
 }
 nav ul{
@@ -28,9 +39,11 @@ nav li{
 nav a{
     color:#c3bfbc;
     display:block;
+    font-family: "Josefin Sans", sans-serif;;
     font-size: small;
+    font-weight:600;
     letter-spacing: 0.15rem;
-    padding: .8rem;
+    padding: 1rem;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -40,6 +53,14 @@ nav a:hover{
 }
 nav a:active, nav a:focus{
     color:#FFF8F2;
+    font-weight: bold;
+}
+/************* footer *************/
+footer{
+    background-color: #282828;
+    color:#c3bfbc;
+    margin:0;
+    padding: 2rem 0;
 }
 /************* desktop and up styling *************/
 @media (min-width: 500px){
@@ -50,11 +71,10 @@ nav a:active, nav a:focus{
         display: inline-block;
     }
     label{
-        text-align:right;
         vertical-align: top;
     }
     input, textarea{
-        max-width: 300px;
+        max-width: 400px;
     }
     .form-button{
         margin-left: 6rem;
@@ -66,31 +86,40 @@ form ul{
     padding-left:0;
 }
 label{
-    display:inline-block;
+    display:block;
+    font-weight: bold;
     min-width: 90px;
     padding-bottom: 0.3rem;
 }
 form li{
-    padding-top: .6rem;
+    padding-top: 1rem;
 }
 input, textarea{
-    border:1px solid #e8d4c8;
-    border-radius:3px;
-    font: 0.8rem Sans-serif;
+    border:1px solid #d2c2b8;
+    border-radius:50px;
+    font-family: "Nunito", sans-serif;
     width:90%;
-    height:2rem;
+    padding: 10px 10px
 }
 #msg{
     height:7rem;
+    border-radius: 15px;
 }
 .form-button{
     background-color: #ED735A;
     border:none;
-    border-radius: 3px;
-    font-size: 1rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 5rem;
-    height:2rem;
+    border-radius:50px;
+    color:#FFF8F2;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 0.9rem;
+    height:3rem;
+    letter-spacing: 0.2rem;
+    margin: 10px 0px;
+    padding-left: 8px;
+    padding-top: 4px;
+    text-transform: uppercase;
+    transition: .5s ease;
+    width: 7.5rem;
 }
 .form-button:hover{
     background-color: #fa9d72;
