@@ -13,9 +13,9 @@ header, main, footer{
 }
 a{
     color:#ED735A;
-    transition: .5s ease;
     font-weight: 500;
     text-underline-offset: 2px;
+    transition: .5s ease;
 }
 a:hover{
     color:#fa9d72;
@@ -77,6 +77,14 @@ footer{
     margin:0;
     margin-top: 5rem;
     padding: 2rem 0;
+}
+.footer-icon{
+    color:#c3bfbc;
+    transition: .5s ease;
+    padding-left: 0.5rem;
+}
+.footer-icon:hover{
+    color:#ED735A;
 }
 /************* desktop and up styling *************/
 @media (min-width: 500px){
@@ -181,4 +189,8 @@ input:focus, textarea:focus {
 }
 .form-button:hover{
     background-color: #fa9d72;
+}
+/************* ty page *************/
+.fa-cat{
+    color:#ED735A;
 }
