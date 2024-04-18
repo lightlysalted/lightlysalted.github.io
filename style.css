@@ -38,6 +38,9 @@ h4, h5, h6{
     letter-spacing: 0.1rem;
     line-height: 2rem;
 }
+button{
+    cursor:pointer;
+}
 /************* navigation *************/
 nav{
     background-color: #282828;
