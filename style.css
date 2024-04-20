@@ -67,7 +67,7 @@ nav a{
     font-size: small;
     font-weight:600;
     letter-spacing: 0.15rem;
-    padding: 1rem;
+    padding: 0.5rem 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -78,6 +78,23 @@ nav a:hover{
 nav a:active, nav a:focus{
     color:#FFF8F2;
     font-weight: bold;
+}
+.contact-nav{
+    background-color: #824239;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: all .3s ease;
+}
+.contact-nav:hover{
+    background-color: #8d4c3f;
+    color:#c3bfbc;
+    text-decoration: none;
+    transform:scale(1.05);
+
 }
 /************* footer *************/
 footer{
@@ -126,6 +143,10 @@ footer{
     .subheading-about, .about p{
         text-align: left;
     }
+    .contact-nav{
+        margin-left: 1rem;
+        margin-top: 0;
+    }
 }
 /************* about page *************/
 .self{
@@ -155,11 +176,11 @@ footer{
     padding:1.1rem 1.5rem 0.8rem;
     text-decoration: none;
     text-transform: uppercase;
-    transition: all .5s ease;
+    transition: all .3s ease;
     width:fit-content;
 }
 .about-button:hover{
-    background-color: #fa9d72;
+    background-color: #f49163;
     color:#FFF8F2;
     transform: scale(1.05);
 }
@@ -211,11 +232,11 @@ input:focus, textarea:focus {
     padding:1.1rem 1.5rem 1rem;
     padding-left: 1.6rem;
     text-transform: uppercase;
-    transition: all .5s ease;
+    transition: all .3s ease;
     width: fit-content;
 }
 .form-button:hover{
-    background-color: #fa9d72;
+    background-color: #f49163;
     transform: scale(1.05);
 }
 /************* ty page *************/
