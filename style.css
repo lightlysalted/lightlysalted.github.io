@@ -89,12 +89,13 @@ footer{
 }
 .footer-icon{
     color:#c3bfbc;
-    transition: .5s ease;
+    transition: all .3s ease;
     padding-left: 0.7rem;
     margin-bottom: 1.5rem;
 }
 .footer-icon:hover{
     color:#ED735A;
+    transform:scale(1.1);
 }
 /************* desktop and up styling *************/
 @media (min-width: 500px){
@@ -146,20 +147,21 @@ footer{
     border:none;
     border-radius:50px;
     color:#FFF8F2;
+    display: inline-block;
     font-family: "Josefin Sans", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
     height:fit-content;
     letter-spacing: 0.2rem;
-    padding:1.2rem 1.5rem 1rem;
+    padding:1.1rem 1.5rem 0.8rem;
     text-decoration: none;
     text-transform: uppercase;
-    width:fit-content;
     transition: all .5s ease;
+    width:fit-content;
 }
 .about-button:hover{
     background-color: #fa9d72;
     color:#FFF8F2;
-    transform:scale(1.1);
+    transform: scale(1.05);
 }
 /************* contact page *************/
 form ul{
@@ -200,6 +202,7 @@ input:focus, textarea:focus {
     border:none;
     border-radius:50px;
     color:#FFF8F2;
+    display: inline-block;
     font-family: "Josefin Sans", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
     height:fit-content;
@@ -208,11 +211,12 @@ input:focus, textarea:focus {
     padding:1.1rem 1.5rem 1rem;
     padding-left: 1.6rem;
     text-transform: uppercase;
-    transition: .5s ease;
+    transition: all .5s ease;
     width: fit-content;
 }
 .form-button:hover{
     background-color: #fa9d72;
+    transform: scale(1.05);
 }
 /************* ty page *************/
 .fa-bounce{
