@@ -13,6 +13,9 @@ body{
 header, main, footer{
     margin:0 auto;
 }
+header{
+    margin-top: 3rem;
+}
 main{
     width: 80%;
     max-width: 40rem;
@@ -50,7 +53,6 @@ button{
 /************* navigation *************/
 nav{
     background-color: #282828;
-    margin-bottom: 3rem;
     padding: 0.1rem;
 }
 nav ul{
@@ -147,6 +149,49 @@ footer{
         margin-left: 1rem;
         margin-top: 0;
     }
+}
+/************* home page *************/
+.parallax{
+    background-image: url(images/3-magazines.png);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3rem;
+    margin-top: -1px;
+    padding:5rem 1.5rem;
+}
+.title, .tagline-home{
+    color:#FFF8F2;
+    filter: drop-shadow(0px 0px 10px black);
+    margin:0;
+}
+.tagline-home{
+    margin-top: 1rem;
+}
+.home-button{
+    background-color: #ED735A;
+    border:none;
+    border-radius:50px;
+    color:#FFF8F2;
+    display: inline-block;
+    font-family: "Josefin Sans", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    height:fit-content;
+    letter-spacing: 0.2rem;
+    margin-top: 5rem;
+    padding:1rem 1.6rem 0.7rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    width:fit-content;
+}
+.home-button:hover{
+    background-color: #f49163;
+    color:#FFF8F2;
+    transform: scale(1.05);
 }
 /************* about page *************/
 .self{
