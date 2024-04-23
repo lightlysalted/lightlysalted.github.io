@@ -119,12 +119,18 @@ footer{
 }
 /************* desktop and up styling *************/
 @media (min-width: 500px){
+    /* nav */
 	nav a{
 		display: inline-block;
 	}
     nav li{
         display: inline-block;
     }
+    .contact-nav{
+        margin-left: 1rem;
+        margin-top: 0;
+    }
+    /* contact */
     label{
         vertical-align: top;
     }
@@ -134,6 +140,7 @@ footer{
     .form-button{
         margin-left: 6rem;
     }
+    /* about */
     .about{
         margin:0;
     }
@@ -146,22 +153,22 @@ footer{
     .subheading-about, .about p{
         text-align: left;
     }
-    .contact-nav{
-        margin-left: 1rem;
-        margin-top: 0;
-    }
 }
 /************* home page *************/
 .parallax{
+    align-items: center;
     background-image: url(images/3-magazines-dark.png);
     min-height: 300px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 3rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:4rem;
+    margin-bottom:3rem;
     margin-top: -1px;
-    padding:5rem 1.5rem;
 }
 .title, .tagline-home{
     color:#FFF8F2;
