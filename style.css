@@ -188,6 +188,9 @@ footer{
     letter-spacing: 3px;
     margin-top: 1rem;
 }
+.subtitle{
+    font-size:1.5rem;
+}
 .home-button{
     background-color: #ED735A;
     border:none;
@@ -210,6 +213,16 @@ footer{
     background-color: #f49163;
     color:#FFF8F2;
     transform: scale(1.05);
+}
+.subheading-home{
+    color:#824239;
+    font-size: 2rem;
+    font-weight:800;
+    margin-bottom: 1rem;
+}
+.self-home{
+    width:25%;
+    min-width: 10rem;
 }
 /************* about page *************/
 .self{
