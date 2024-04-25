@@ -12,20 +12,36 @@ body{
     text-align: center;
 }
 header, main, footer{
-    margin:0 auto;
+    max-width: 100%;
+    margin: auto;
+}
+header h1{
+    margin-top: 3rem;
 }
 main{
-    width: 80%;
     max-width: 40rem;
+    width: 80%;
+}
+main a{
+    color:#AB513F;
+}
+main a:hover{
+    color:#2E7583;
 }
 a{
     color:#ED735A;
     font-weight: 500;
-    text-underline-offset: 2px;
+    text-underline-offset: 5px;
     transition: all .5s ease;
 }
 a:hover{
     color:#fa9d72;
+}
+a:focus, a:active{
+    font-weight: bold;
+}
+.external:after{
+  content: ' ↗';
 }
 h1{
     font-family: "Josefin Sans", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -219,15 +235,18 @@ footer{
     font-size: 2rem;
     font-weight:800;
     margin-bottom: 1rem;
+    margin-top:1rem;
 }
 .self-home{
-    width:25%;
+    border-radius:50%;
+    box-shadow: 0 0 30px #28282863;
     min-width: 10rem;
+    width:25%;
 }
 /************* about page *************/
 .self{
-    width:25%;
     min-width: 15rem;
+    width:25%;
 }
 .subheading-about{
     color:#824239;
