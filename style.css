@@ -107,7 +107,7 @@ nav a:active, nav a:focus{
 }
 .contact-nav:hover{
     background-color: #8d4c3f;
-    color:#c3bfbc;
+    color:#fff8f2;
     text-decoration: none;
     transform:scale(1.05);
 
@@ -209,7 +209,6 @@ footer{
 }
 .home-button{
     background-color: #ED735A;
-    border:none;
     border-radius:50px;
     color:#FFF8F2;
     display: inline-block;
