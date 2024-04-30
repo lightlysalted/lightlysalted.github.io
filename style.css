@@ -104,6 +104,7 @@ nav a:active, nav a:focus{
     padding-bottom: 0.3rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    text-decoration: none;
     transition: all .3s ease;
 }
 .contact-nav:hover{
