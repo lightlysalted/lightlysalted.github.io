@@ -308,11 +308,14 @@ input, textarea{
     color:#282828;
     font-family: "Nunito", sans-serif;
     letter-spacing: 0.03rem;
+    outline:2px solid transparent;
     padding: 10px 15px;
     width:90%;
 }
 input:focus, textarea:focus {
   border-color: #FEE7D1;
+  outline:2px solid #ED735A;
+  transition: opacity .3s ease;
 }
 #msg{
     height:10rem;
