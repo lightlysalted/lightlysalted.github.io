@@ -50,13 +50,14 @@ h1{
     margin-bottom: 2rem;
     text-transform: uppercase;
 }
+/*
 h2, h3{
     font-family: "Josefin Sans", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 0.1rem;
     line-height: 2rem;
     text-transform: uppercase;
-}
-h4, h5, h6{
+*/
+h2, h3, h4, h5, h6{
     font-family: "Caveat", cursive;
     letter-spacing: 0.1rem;
     line-height: 2rem;
@@ -84,12 +85,12 @@ nav a{
     font-weight:600;
     letter-spacing: 0.15rem;
     padding: 0.5rem 1.5rem;
-    text-decoration: none;
+    text-decoration: underline solid 1px transparent;
     text-transform: uppercase;
 }
 nav a:hover{
     color:#ED735A;
-    text-decoration: underline;
+    text-decoration: underline solid 1px;
 }
 nav a:active, nav a:focus{
     color:#FFF8F2;
@@ -254,8 +255,13 @@ footer{
     margin-bottom: 1rem;
 }
 .cta-about{
-    margin-top: 4rem;
+    font-family: "Josefin Sans", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
     margin-bottom: 1.5rem;
+    margin-top: 4rem;
+    text-transform: uppercase;
 }
 .about-button{
     background-color: #ED735A;
@@ -301,14 +307,14 @@ input, textarea{
     color:#282828;
     font-family: "Nunito", sans-serif;
     letter-spacing: 0.03rem;
-    padding: 10px 10px;
+    padding: 10px 15px;
     width:90%;
 }
 input:focus, textarea:focus {
   border-color: #FEE7D1;
 }
 #msg{
-    height:7rem;
+    height:10rem;
     border-radius: 15px;
 }
 .form-button{
