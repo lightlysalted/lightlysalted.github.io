@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     transition: all .5s ease;
+    padding:0;
 }
 body{
     background-color:#FFF8F2;
@@ -177,6 +178,16 @@ footer{
     .subheading-about, .about p{
         text-align: left;
     }
+    /* badges */
+    .badges-gallery{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .badges-gallery img{
+        display: block;
+        width: 75%;
+        margin-top: 1rem;
+    }
 }
 /************* home page *************/
 .parallax{
@@ -298,7 +309,6 @@ footer{
     color:#824239;
     font-weight:800;
     margin-top: -1rem;
-    margin-bottom: 1rem;
 }
 .projects-div{
     margin-top:3rem;
@@ -309,6 +319,40 @@ footer{
 }
 .projects-div h2{
     margin-bottom:-0.5rem;
+}
+/************* badges page *************/
+.badges-div{
+    margin-top:2rem;
+}
+.badges-gallery{
+    margin-top:2rem;
+}
+.badges-gallery img{
+    display: block;
+    width: 75%;
+    margin: auto;
+    margin-top: 1rem;
+}
+.badges-button{
+    background-color: #ED735A;
+    border-radius:50px;
+    color:#282828;
+    display: inline-block;
+    font-family: "Josefin Sans", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    height:fit-content;
+    letter-spacing: 0.2rem;
+    margin-top: 3rem;
+    padding:1.1rem 1.7rem 0.8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    width:fit-content;
+}
+.badges-button:hover{
+    background-color: #f49163;
+    color:#282828;
+    transform: scale(1.05);
 }
 /************* contact page *************/
 form ul{
