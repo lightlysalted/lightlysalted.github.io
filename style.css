@@ -142,53 +142,6 @@ footer{
     color:#ED735A;
     transform:scale(1.1);
 }
-/************* desktop and up styling *************/
-@media (min-width: 500px){
-    /* nav */
-	nav a{
-		display: inline-block;
-	}
-    nav li{
-        display: inline-block;
-    }
-    .contact-nav{
-        margin-left: 1rem;
-        margin-top: 0;
-    }
-    /* contact */
-    label{
-        vertical-align: top;
-    }
-    input, textarea{
-        max-width: 400px;
-    }
-    .form-button{
-        margin-left: 6rem;
-    }
-    /* about */
-    .about{
-        margin:0;
-    }
-    .self{
-        float: left;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        margin-right: 3rem;
-    }
-    .subheading-about, .about p{
-        text-align: left;
-    }
-    /* badges */
-    .badges-gallery{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .badges-gallery img{
-        display: block;
-        width: 75%;
-        margin-top: 1rem;
-    }
-}
 /************* home page *************/
 .parallax{
     align-items: center;
@@ -444,4 +397,51 @@ input:focus, textarea:focus {
 .fa-bounce{
     color:#ED735A;
     margin-bottom: 6rem;
+}
+/************* desktop and up styling *************/
+@media (min-width: 500px){
+    /* nav */
+	nav a{
+		display: inline-block;
+	}
+    nav li{
+        display: inline-block;
+    }
+    .contact-nav{
+        margin-left: 1rem;
+        margin-top: 0;
+    }
+    /* contact */
+    label{
+        vertical-align: top;
+    }
+    input, textarea{
+        max-width: 400px;
+    }
+    .form-button{
+        margin-left: 6rem;
+    }
+    /* about */
+    .about{
+        margin:0;
+    }
+    .self{
+        float: left;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-right: 3rem;
+    }
+    .subheading-about, .about p{
+        text-align: left;
+    }
+    /* badges */
+    .badges-gallery{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .badges-gallery img{
+        display: block;
+        width: 75%;
+        margin-top: 1rem;
+    }
 }
