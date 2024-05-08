@@ -461,6 +461,9 @@ input:focus, textarea:focus {
         margin:auto;
         width:80%;
     }
+    .card-badges img{
+        width:90%;
+    }
     .card img{
         height:15rem;
         object-fit: cover;
