@@ -266,17 +266,6 @@ footer{
 .card{
     margin-bottom: 5rem;
 }
-.card-badges img{
-    border: 3px solid transparent;
-    border-radius: 10px;
-    width:100%;
-    filter: brightness(90%) saturate(125%);
-}
-.card-badges img:hover, .card-badges img:focus{
-    border: 3px solid #FEE7D1;
-    filter: none;
-    transform: scale(1.01);
-}
 .card h2{
     margin-bottom:-0.5rem;
 }
@@ -450,19 +439,15 @@ input:focus, textarea:focus {
     .projects-main{
         max-width: 60rem;
     }
-    .projects-div{
-        margin-top:2rem;
+    .card{
+        margin-bottom: 0;
     }
     .project-columns{
-        column-count: 2;
-        gap:2rem;
-    }
-    .card-badges{
-        margin:auto;
-        width:80%;
-    }
-    .card-badges img{
-        width:90%;
+        column-gap: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top:2rem;
+        row-gap:5rem;
     }
     .card img{
         height:15rem;
